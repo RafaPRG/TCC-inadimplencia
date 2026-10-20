@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+
+# Arquivos grandes gerados pelo experimento
+treinamento/resultados_*/*/previsoes.csv
+treinamento/resultados_*/*/divisoes.csv
+treinamento/resultados_*/*/modelos/
+treinamento/resultados_*/smoke_*/
