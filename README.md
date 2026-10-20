@@ -12,7 +12,6 @@ Coorientador: Prof. Nilton César
 
 ```
 tratamento/
-  database/CreditosAE.csv  base bruta (AmExpert CodeLab 2021)
   tratamento_bd_ae.py      regras fixas aplicadas à base bruta
 treinamento/
   mlp.py                   MLP com uma camada escondida (propagação, retropropagação e parada antecipada)
@@ -39,10 +38,10 @@ pip install -r requirements.txt
 
 ## Base de dados
 
-A base bruta está em `tratamento/database/CreditosAE.csv` (45.528 registros, SHA-256 `8f3c79565e540cf4bfaf24bc09a3a6d379bc945c5072d376df55f53ad64fa106`). Ela foi obtida no Kaggle:
+A base não está no repositório. Baixe-a no Kaggle:
 https://www.kaggle.com/datasets/pradip11/amexpert-codelab-2021/data
 
-O tratamento é aplicado pelo próprio experimento; não há arquivo tratado intermediário.
+Salve o arquivo como `tratamento/database/CreditosAE.csv`. O arquivo usado no trabalho tem 45.528 registros e SHA-256 `8f3c79565e540cf4bfaf24bc09a3a6d379bc945c5072d376df55f53ad64fa106`.
 
 ## Execução
 

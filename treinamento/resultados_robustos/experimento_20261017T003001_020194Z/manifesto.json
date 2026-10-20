@@ -1,0 +1,247 @@
+{
+  "Status": "concluido",
+  "Inicio_UTC": "20261017T003001_020194Z",
+  "Somente_smoke": false,
+  "Argumentos": {
+    "base": "tratamento/database/CreditosAE.csv",
+    "saida": "treinamento/resultados_robustos",
+    "perfil": "completo",
+    "cenarios": [
+      "sem_historico_e_pontuacao"
+    ],
+    "folds": 5,
+    "seed": 42,
+    "epocas": 50,
+    "paciencia": 5,
+    "bootstrap": 2000,
+    "rapido": false,
+    "extras": true
+  },
+  "Base_SHA256": "8f3c79565e540cf4bfaf24bc09a3a6d379bc945c5072d376df55f53ad64fa106",
+  "Auditoria": {
+    "Registros_brutos": 45528,
+    "Registros_validos": 45527,
+    "Removidos_gender_XNA": 1,
+    "Nulos_antes_imputacao": {
+      "age": 0,
+      "gender": 0,
+      "owns_car": 547,
+      "owns_house": 0,
+      "no_of_children": 774,
+      "net_yearly_income": 0,
+      "no_of_days_employed": 463,
+      "occupation_type": 0,
+      "total_family_members": 83,
+      "migrant_worker": 87,
+      "yearly_debt_payments": 95,
+      "credit_limit": 0,
+      "credit_limit_used(%)": 0,
+      "credit_score": 8,
+      "prev_defaults": 0,
+      "default_in_last_6months": 0,
+      "credit_card_default": 0,
+      "is_unemployed": 0
+    },
+    "Classes": {
+      "0": 41830,
+      "1": 3697
+    }
+  },
+  "N_experimento": 45527,
+  "N_desenvolvimento": 36421,
+  "N_teste": 9106,
+  "Python": "3.11.9",
+  "Plataforma": "Windows-10-10.0.26200-SP0",
+  "Versoes": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "imbalanced-learn": "0.14.1",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "Fontes_SHA256": {
+    "treinamento\\avaliacao.py": "3d7c7f9d518c304b10dccdf7ded8a6bf1ff7b341281fb50883b2a718de4bbb34",
+    "treinamento\\experimento.py": "7cd85ada825c17ca1c62b723985a81e280959ef30cb8684b9800e2559f9cfdde",
+    "treinamento\\mlp.py": "b017ff21d1fc15fe22d64bf3e1be0a02dad21c9c07f63f03192e216b0cab450f",
+    "treinamento\\preprocessamento.py": "344eb13fa20606a9cda9b6f1975dc32236d483b807dc8ab59cb1d70845f5c281",
+    "treinamento\\relatorios.py": "89210e7811388c3bbd2311ffe0cc9008ba337147dff7c105ecd53e5ce285e092",
+    "tratamento\\tratamento_bd_ae.py": "2787815690d656d3b4fef1db5538912e92eeca795465cb161127c463546319ea"
+  },
+  "Configuracoes": [
+    {
+      "familia": "RL",
+      "estrategia": "sem",
+      "neuronios": 0,
+      "eta": 0.0
+    },
+    {
+      "familia": "RL",
+      "estrategia": "smote_1",
+      "neuronios": 0,
+      "eta": 0.0
+    },
+    {
+      "familia": "RL",
+      "estrategia": "pesos",
+      "neuronios": 0,
+      "eta": 0.0
+    },
+    {
+      "familia": "RL",
+      "estrategia": "smote_0.3",
+      "neuronios": 0,
+      "eta": 0.0
+    },
+    {
+      "familia": "RL",
+      "estrategia": "smote_0.5",
+      "neuronios": 0,
+      "eta": 0.0
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "sem",
+      "neuronios": 5,
+      "eta": 0.01
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "sem",
+      "neuronios": 50,
+      "eta": 0.01
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "sem",
+      "neuronios": 50,
+      "eta": 0.05
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "sem",
+      "neuronios": 50,
+      "eta": 0.1
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "smote_1",
+      "neuronios": 5,
+      "eta": 0.01
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "smote_1",
+      "neuronios": 50,
+      "eta": 0.01
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "smote_1",
+      "neuronios": 50,
+      "eta": 0.05
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "smote_1",
+      "neuronios": 50,
+      "eta": 0.1
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "pesos",
+      "neuronios": 5,
+      "eta": 0.01
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "pesos",
+      "neuronios": 50,
+      "eta": 0.01
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "pesos",
+      "neuronios": 50,
+      "eta": 0.05
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "pesos",
+      "neuronios": 50,
+      "eta": 0.1
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "smote_0.3",
+      "neuronios": 5,
+      "eta": 0.01
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "smote_0.3",
+      "neuronios": 50,
+      "eta": 0.01
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "smote_0.3",
+      "neuronios": 50,
+      "eta": 0.05
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "smote_0.3",
+      "neuronios": 50,
+      "eta": 0.1
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "smote_0.5",
+      "neuronios": 5,
+      "eta": 0.01
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "smote_0.5",
+      "neuronios": 50,
+      "eta": 0.01
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "smote_0.5",
+      "neuronios": 50,
+      "eta": 0.05
+    },
+    {
+      "familia": "MLP",
+      "estrategia": "smote_0.5",
+      "neuronios": 50,
+      "eta": 0.1
+    },
+    {
+      "familia": "Regra_historico",
+      "estrategia": "sem",
+      "neuronios": 0,
+      "eta": 0.0
+    },
+    {
+      "familia": "RandomForest",
+      "estrategia": "sem",
+      "neuronios": 0,
+      "eta": 0.0
+    }
+  ],
+  "Selecao": "F1 validacao interna; desempate AP; limiar exato PR",
+  "Teste_final": "Configuracao por media das validacoes internas; novo ajuste/validacao em desenvolvimento",
+  "Limites": [
+    "Base ja explorada anteriormente; nao constitui validacao externa inedita",
+    "CV externa com holdout interno, nao k-fold interno",
+    "IC bootstrap condicional aos modelos/limiares, pontual, sem ajuste de multiplicidade",
+    "SMOTE comum interpola colunas one-hot; SMOTENC nao implementado",
+    "Regra historico nao executada na ablacao sem_historico"
+  ],
+  "Fim_UTC": "2026-10-17T01:12:00.283987+00:00"
+}

@@ -1,0 +1,12 @@
+Cenario,Modelo,Configuracao,F1,AP
+sem_historico_e_pontuacao,RandomForest_sem,RandomForest_sem_h0_eta0,0.4019633606509393,0.30023642068880607
+sem_historico_e_pontuacao,MLP_smote_0.3,MLP_smote_0.3_h50_eta0.1,0.383702685966769,0.2854587786468975
+sem_historico_e_pontuacao,RL_smote_0.3,RL_smote_0.3_h0_eta0,0.38354762273757154,0.28418192997808595
+sem_historico_e_pontuacao,RL_smote_0.5,RL_smote_0.5_h0_eta0,0.3835109663224792,0.28189802668830066
+sem_historico_e_pontuacao,MLP_sem,MLP_sem_h50_eta0.1,0.38320041635645485,0.2935264596811723
+sem_historico_e_pontuacao,RL_sem,RL_sem_h0_eta0,0.38218241626488725,0.2880027223892601
+sem_historico_e_pontuacao,RL_pesos,RL_pesos_h0_eta0,0.3819299323860321,0.2810310599394943
+sem_historico_e_pontuacao,MLP_smote_0.5,MLP_smote_0.5_h50_eta0.05,0.38186614648811407,0.28149383545300294
+sem_historico_e_pontuacao,RL_smote_1,RL_smote_1_h0_eta0,0.38126670732795087,0.27917020133171294
+sem_historico_e_pontuacao,MLP_smote_1,MLP_smote_1_h50_eta0.05,0.3809767691395597,0.2751746019778879
+sem_historico_e_pontuacao,MLP_pesos,MLP_pesos_h5_eta0.01,0.37821031223624707,0.2791662174783668

@@ -2,6 +2,9 @@ __pycache__/
 *.py[cod]
 .venv/
 
+# Base de dados (baixar do Kaggle)
+tratamento/database/*.csv
+
 # Arquivos grandes gerados pelo experimento
 treinamento/resultados_*/*/previsoes.csv
 treinamento/resultados_*/*/divisoes.csv

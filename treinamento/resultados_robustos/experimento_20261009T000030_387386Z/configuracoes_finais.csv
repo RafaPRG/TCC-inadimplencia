@@ -1,0 +1,13 @@
+Cenario,Modelo,Configuracao,F1,AP
+sem_credit_score,MLP_smote_0.5,MLP_smote_0.5_h50_eta0.1,0.8294362429973218,0.8382534960000756
+sem_credit_score,MLP_sem,MLP_sem_h5_eta0.01,0.8291670669636616,0.8410272130275456
+sem_credit_score,RandomForest_sem,RandomForest_sem_h0_eta0,0.8291670669636616,0.8392001000117106
+sem_credit_score,RL_pesos,RL_pesos_h0_eta0,0.8291524887594228,0.8420363162611796
+sem_credit_score,RL_sem,RL_sem_h0_eta0,0.8291501245604384,0.8426825853682814
+sem_credit_score,RL_smote_0.3,RL_smote_0.3_h0_eta0,0.8291469206633337,0.8426387529021167
+sem_credit_score,MLP_smote_0.3,MLP_smote_0.3_h5_eta0.01,0.8290822184592676,0.8412093843156898
+sem_credit_score,RL_smote_0.5,RL_smote_0.5_h0_eta0,0.8290682248511825,0.8420409046951487
+sem_credit_score,RL_smote_1,RL_smote_1_h0_eta0,0.8290682248511825,0.8416274407011863
+sem_credit_score,Regra_historico_sem,Regra_historico_sem_h0_eta0,0.8290682248511825,0.7319240351673992
+sem_credit_score,MLP_smote_1,MLP_smote_1_h5_eta0.01,0.8281413686833119,0.8422874980265547
+sem_credit_score,MLP_pesos,MLP_pesos_h5_eta0.01,0.8263519397000968,0.8419564049124052
